@@ -1,6 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 300 1em/1.38 'Open Sans Condensed';
+  font: 400 1em/1.38 Helvetica;
   color: rgb(0, 0, 0);
 }
 
@@ -12,27 +12,64 @@ body {
   margin-left: 1.0638297872%;
   border-radius: 3px;
   background-color: rgb(238, 237, 237);
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
   line-height: 1.38;
   text-align: center;
   color: rgb(0, 0, 0);
   resize: none;
 }
 
+.archak .link {
+  z-index: 27;
+}
+
+.archak .text {
+  z-index: 24;
+}
+
+.body .link {
+  position: relative;
+  clear: both;
+  width: 11.475409836%;
+  height: 51px;
+  margin: -51px 0 0 83.1381733021%;
+}
+
+.body .text {
+  width: 100%;
+}
+
 .archak,
 .chriscole,
 .cigan,
-.filipp,
-.matvee,
-.nataxa,
 .ribak,
-.roman,
-.sadig {
-  display: block;
+.roman {
   float: left;
-  clear: both;
-  width: 346px;
-  height: auto;
-  overflow: hidden;
+}
+
+.chriscole .link {
+  z-index: 62;
+}
+
+.chriscole .text {
+  z-index: 59;
+}
+
+.cigan .link {
+  z-index: 57;
+}
+
+.cigan .text {
+  z-index: 54;
+}
+
+.filipp .link {
+  z-index: 32;
+}
+
+.filipp .text {
+  z-index: 29;
 }
 
 .image {
@@ -42,11 +79,44 @@ body {
   height: 3431px;
 }
 
+.image .archak,
+.image .chriscole,
+.image .cigan,
+.image .filipp,
+.image .matvee,
+.image .nataxa,
+.image .ribak,
+.image .roman,
+.image .sadig {
+  display: block;
+  clear: both;
+  width: 346px;
+  height: auto;
+  overflow: hidden;
+}
+
+.instagram {
+  display: block;
+  float: left;
+  border-radius: 3px;
+  background: url('../images/instagram.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  resize: none;
+}
+
 .link {
   float: left;
-  width: 15.6666666666%;
-  height: 59px;
-  margin: 36px 0 0 68.5833333333%;
+}
+
+.link .instagram {
+  width: 47.9591836734%;
+  height: 51px;
+  background-size: contain;
 }
 
 .link .team {
@@ -56,10 +126,17 @@ body {
   height: 59px;
   border-radius: 3px;
   background-color: rgb(238, 237, 237);
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
   line-height: 1.38;
   text-align: center;
   color: rgb(0, 0, 0);
   resize: none;
+}
+
+.link .vk {
+  width: 52.0408163265%;
+  height: 51px;
 }
 
 .logo {
@@ -71,11 +148,59 @@ body {
   background: url('../images/logo_2.png') rgb(238, 237, 237);
   background-size: cover;
   background-position: center center;
+  font-family: 'Open Sans Condensed';
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
   color: rgb(0, 0, 0);
   resize: none;
+}
+
+.matvee .link {
+  z-index: 52;
+}
+
+.matvee .text {
+  z-index: 49;
+}
+
+.nataxa .link {
+  z-index: 37;
+}
+
+.nataxa .text {
+  z-index: 34;
+}
+
+.ribak .link {
+  z-index: 22;
+}
+
+.ribak .text {
+  z-index: 19;
+}
+
+.roman .link {
+  z-index: 42;
+}
+
+.roman .text {
+  z-index: 39;
+}
+
+.filipp,
+.matvee,
+.nataxa,
+.sadig {
+  float: left;
+}
+
+.sadig .link {
+  z-index: 47;
+}
+
+.sadig .text {
+  z-index: 44;
 }
 
 .slava {
@@ -86,9 +211,124 @@ body {
   overflow: hidden;
 }
 
+.text {
+  position: relative;
+  float: left;
+  min-height: 350px;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0,0,0);
+}
+
 .title {
   float: left;
   width: 100%;
   height: 95px;
   background-color: rgb(238, 237, 237);
+}
+
+.title .link {
+  width: 15.6666666666%;
+  height: 59px;
+  margin: 36px 0 0 68.5833333333%;
+}
+
+.vk {
+  display: block;
+  float: left;
+  border-radius: 3px;
+  background: url('../images/vkcom.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  resize: none;
+}
+
+.body-1 {
+  width: 71.1666666666%;
+  height: 332px;
+  margin: -3081px 0 0 28.8333333333%;
+}
+
+.body-2 {
+  width: 71.1666666666%;
+  height: 356px;
+  margin: -2744px 0 0 28.8333333333%;
+}
+
+.body-3 {
+  position: relative;
+  z-index: 38;
+  width: 71.1666666666%;
+  height: 339px;
+  margin: -2048px 0 0 28.8333333333%;
+}
+
+.body-4 {
+  position: relative;
+  z-index: 33;
+  width: 71.1666666666%;
+  height: 340px;
+  margin: -2387px 0 0 28.8333333333%;
+}
+
+.body-5 {
+  width: 71.1666666666%;
+  height: 341px;
+  margin: -1709px 0 0 28.8333333333%;
+}
+
+.body-6 {
+  position: relative;
+  z-index: 53;
+  width: 71.1666666666%;
+  height: 360px;
+  margin: -1018px 0 0 28.8333333333%;
+}
+
+.body-7 {
+  position: relative;
+  z-index: 48;
+  width: 71.1666666666%;
+  height: 351px;
+  margin: -1368px 0 0 28.8333333333%;
+}
+
+.body-8 {
+  width: 71.1666666666%;
+  height: 332px;
+  margin: -658px 0 0 28.8333333333%;
+}
+
+.body-9 {
+  width: 71.1666666666%;
+  height: 326px;
+  margin: -326px 0 0 28.8333333333%;
+}
+
+.instagram-1 {
+  position: relative;
+  clear: both;
+  z-index: 18;
+  width: 10.3333333333%;
+  height: 124px;
+  margin: -3205px 0 0 88%;
+  background-size: 125px 125px;
+}
+
+.text-1 {
+  z-index: 16;
+  width: 71.1666666666%;
+}
+
+.vk-1 {
+  position: relative;
+  z-index: 17;
+  width: 2.9166666666%;
+  height: 39px;
+  margin: -3120px 0 0 90%;
 }
