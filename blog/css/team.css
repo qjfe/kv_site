@@ -7,74 +7,87 @@ body {
 .about {
   display: block;
   float: left;
-  width: 45.2127659574%;
+  width: 31.0236669518%;
   height: 59px;
-  margin-left: 1.0638297872%;
+  margin-left: 0.7252999999%;
   border-radius: 3px;
   background-color: rgb(238, 237, 237);
-  font-family: 'Open Sans Condensed';
-  font-weight: 300;
-  line-height: 1.38;
+  font: 300 1em/1.38 'Open Sans Condensed';
   text-align: center;
   color: rgb(0, 0, 0);
   resize: none;
 }
 
 .archak .link {
-  z-index: 27;
+  z-index: 29;
 }
 
 .archak .text {
-  z-index: 24;
-}
-
-.body .link {
-  position: relative;
-  clear: both;
-  width: 11.475409836%;
-  height: 51px;
-  margin: -51px 0 0 83.1381733021%;
-}
-
-.body .text {
-  width: 100%;
+  z-index: 26;
 }
 
 .archak,
 .chriscole,
 .cigan,
-.ribak,
-.roman {
+.filipp,
+.matvee,
+.nataxa,
+.roman,
+.sadig {
   float: left;
 }
 
 .chriscole .link {
-  z-index: 62;
+  z-index: 64;
 }
 
 .chriscole .text {
-  z-index: 59;
+  z-index: 61;
 }
 
 .cigan .link {
-  z-index: 57;
+  z-index: 59;
 }
 
 .cigan .text {
-  z-index: 54;
+  z-index: 56;
+}
+
+.content {
+  display: block;
+  float: left;
+  width: 31.0236669518%;
+  height: 59px;
+  margin-left: -0.21131%;
+  border-radius: 3px;
+  background-color: rgb(238, 237, 237);
+  font: 300 1em/1.38 'Open Sans Condensed';
+  text-align: center;
+  color: rgb(0, 0, 0);
+  resize: none;
+}
+
+.content:active,
+.content:focus,
+.content:hover {
+  bottom: auto;
+  right: auto;
+  margin-right: 0;
 }
 
 .filipp .link {
-  z-index: 32;
+  z-index: 34;
 }
 
 .filipp .text {
-  z-index: 29;
+  z-index: 31;
 }
 
 .image {
+  position: relative;
   float: left;
   clear: both;
+  z-index: 15;
   width: 28.8333333333%;
   height: 3431px;
 }
@@ -85,7 +98,6 @@ body {
 .image .filipp,
 .image .matvee,
 .image .nataxa,
-.image .ribak,
 .image .roman,
 .image .sadig {
   display: block;
@@ -95,13 +107,25 @@ body {
   overflow: hidden;
 }
 
+.image .ribak,
+.image .slava {
+  display: block;
+  width: 346px;
+  height: auto;
+  overflow: hidden;
+}
+
 .instagram {
   display: block;
   float: left;
+  width: 47.9591836734%;
+  height: 51px;
   border-radius: 3px;
   background: url('../images/instagram.jpg') rgb(222, 222, 222);
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: center center;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
@@ -110,33 +134,33 @@ body {
 }
 
 .link {
+  position: relative;
   float: left;
-}
-
-.link .instagram {
-  width: 47.9591836734%;
+  clear: both;
+  width: 11.475409836%;
   height: 51px;
-  background-size: contain;
+  margin: -51px 0 0 83.1326799999%;
 }
 
-.link .team {
+.link_left {
+  float: left;
+  width: 22.7994791666%;
+  height: 59px;
+  margin: 36px 0 0 61.41667%;
+}
+
+.link_left .team {
   display: block;
   float: left;
-  width: 53.7234042553%;
+  width: 36.863416025%;
   height: 59px;
+  margin-left: 0.21131%;
   border-radius: 3px;
   background-color: rgb(238, 237, 237);
-  font-family: 'Open Sans Condensed';
-  font-weight: 300;
-  line-height: 1.38;
+  font: 300 1em/1.38 'Open Sans Condensed';
   text-align: center;
   color: rgb(0, 0, 0);
   resize: none;
-}
-
-.link .vk {
-  width: 52.0408163265%;
-  height: 51px;
 }
 
 .logo {
@@ -148,73 +172,75 @@ body {
   background: url('../images/logo_2.png') rgb(238, 237, 237);
   background-size: cover;
   background-position: center center;
-  font-family: 'Open Sans Condensed';
-  font-weight: 400;
-  line-height: 1.38;
+  font: 400 1em/1.38 'Open Sans Condensed';
   text-align: center;
   color: rgb(0, 0, 0);
   resize: none;
 }
 
 .matvee .link {
-  z-index: 52;
+  z-index: 54;
 }
 
 .matvee .text {
-  z-index: 49;
+  z-index: 51;
 }
 
 .nataxa .link {
-  z-index: 37;
-}
-
-.nataxa .text {
-  z-index: 34;
-}
-
-.ribak .link {
-  z-index: 22;
-}
-
-.ribak .text {
-  z-index: 19;
-}
-
-.roman .link {
-  z-index: 42;
-}
-
-.roman .text {
   z-index: 39;
 }
 
-.filipp,
-.matvee,
-.nataxa,
-.sadig {
+.nataxa .text {
+  z-index: 36;
+}
+
+.ribak {
   float: left;
+  clear: both;
 }
 
-.sadig .link {
-  z-index: 47;
+.ribak .link {
+  z-index: 24;
 }
 
-.sadig .text {
+.ribak .text {
+  z-index: 21;
+}
+
+.roman .link {
   z-index: 44;
 }
 
+.roman .text {
+  z-index: 41;
+}
+
+.sadig .link {
+  z-index: 49;
+}
+
+.sadig .text {
+  z-index: 46;
+}
+
 .slava {
-  display: block;
   float: left;
-  width: 346px;
-  height: auto;
-  overflow: hidden;
+}
+
+.slava .link {
+  z-index: 19;
+}
+
+.slava .text {
+  z-index: 16;
 }
 
 .text {
   position: relative;
   float: left;
+  width: 100%;
   min-height: 350px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(0,0,0);
@@ -227,20 +253,17 @@ body {
   background-color: rgb(238, 237, 237);
 }
 
-.title .link {
-  width: 15.6666666666%;
-  height: 59px;
-  margin: 36px 0 0 68.5833333333%;
-}
-
 .vk {
   display: block;
   float: left;
+  width: 52.0408163265%;
+  height: 51px;
   border-radius: 3px;
   background: url('../images/vkcom.jpg') rgb(222, 222, 222);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
@@ -249,86 +272,80 @@ body {
 }
 
 .body-1 {
+  position: relative;
+  z-index: 20;
   width: 71.1666666666%;
-  height: 332px;
-  margin: -3081px 0 0 28.8333333333%;
+  height: 350px;
+}
+
+.body-10 {
+  position: relative;
+  z-index: 65;
+  width: 71.1666666666%;
+  height: 326px;
+  margin: -326px 0 0 28.83073%;
 }
 
 .body-2 {
+  position: relative;
+  z-index: 25;
   width: 71.1666666666%;
-  height: 356px;
-  margin: -2744px 0 0 28.8333333333%;
+  height: 332px;
+  margin: -3081px 0 0 28.83073%;
 }
 
 .body-3 {
   position: relative;
-  z-index: 38;
+  z-index: 30;
   width: 71.1666666666%;
-  height: 339px;
-  margin: -2048px 0 0 28.8333333333%;
+  height: 356px;
+  margin: -2744px 0 0 28.83073%;
 }
 
 .body-4 {
   position: relative;
-  z-index: 33;
+  z-index: 35;
   width: 71.1666666666%;
   height: 340px;
-  margin: -2387px 0 0 28.8333333333%;
+  margin: -2388px 0 0 28.83073%;
 }
 
 .body-5 {
+  position: relative;
+  z-index: 40;
   width: 71.1666666666%;
-  height: 341px;
-  margin: -1709px 0 0 28.8333333333%;
+  height: 339px;
+  margin: -2048px 0 0 28.83073%;
 }
 
 .body-6 {
   position: relative;
-  z-index: 53;
+  z-index: 45;
   width: 71.1666666666%;
-  height: 360px;
-  margin: -1018px 0 0 28.8333333333%;
+  height: 341px;
+  margin: -1709px 0 0 28.83073%;
 }
 
 .body-7 {
   position: relative;
-  z-index: 48;
+  z-index: 50;
   width: 71.1666666666%;
   height: 351px;
-  margin: -1368px 0 0 28.8333333333%;
+  margin: -1368px 0 0 28.83073%;
 }
 
 .body-8 {
+  position: relative;
+  z-index: 55;
   width: 71.1666666666%;
-  height: 332px;
-  margin: -658px 0 0 28.8333333333%;
+  height: 360px;
+  margin: -1018px 0 0 28.83073%;
 }
 
 .body-9 {
-  width: 71.1666666666%;
-  height: 326px;
-  margin: -326px 0 0 28.8333333333%;
-}
-
-.instagram-1 {
   position: relative;
-  clear: both;
-  z-index: 18;
-  width: 10.3333333333%;
-  height: 124px;
-  margin: -3205px 0 0 88%;
-  background-size: 125px 125px;
-}
-
-.text-1 {
-  z-index: 16;
+  z-index: 60;
   width: 71.1666666666%;
-}
-
-.vk-1 {
-  position: relative;
-  z-index: 17;
-  width: 2.9166666666%;
-  height: 39px;
-  margin: -3120px 0 0 90%;
+  height: 332px;
+  margin: -658px 0 0 28.83073%;
 }

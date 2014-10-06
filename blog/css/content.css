@@ -19,17 +19,14 @@ body {
   resize: none;
 }
 
-.backgroung {
+.link_left {
   float: left;
-  clear: both;
-  width: 100%;
-  height: 615px;
-  background: url('../images/background.jpg') rgb(222, 222, 222);
-  background-size: auto auto;
-  background-position: center center;
+  width: 22.7994791666%;
+  height: 59px;
+  margin: 36px 0 0 61.41667%;
 }
 
-.content {
+.link_left .content {
   display: block;
   float: left;
   width: 31.0236669518%;
@@ -44,11 +41,12 @@ body {
   resize: none;
 }
 
-.link_left {
-  float: left;
-  width: 22.7994791666%;
-  height: 59px;
-  margin: 36px 0 0 61.41667%;
+.link_left .content:active,
+.link_left .content:focus,
+.link_left .content:hover {
+  bottom: auto;
+  right: auto;
+  margin-right: 0;
 }
 
 .logo {

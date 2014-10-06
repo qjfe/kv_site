@@ -4,21 +4,45 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.link {
-  float: left;
-  width: 15.6666666666%;
-  height: 59px;
-  margin: 36px 0 0 68.5833333333%;
-}
-
-.link .about {
+.content {
   display: block;
   float: left;
-  width: 45.2127659574%;
+  width: 31.0236669518%;
   height: 59px;
-  margin-left: 1.0638297872%;
+  margin-left: -0.21131%;
   border-radius: 3px;
   background-color: rgb(238, 237, 237);
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  resize: none;
+}
+
+.content:active,
+.content:focus,
+.content:hover {
+  bottom: auto;
+  right: auto;
+  margin-right: 0;
+}
+
+.link_left {
+  float: left;
+  width: 22.7994791666%;
+  height: 59px;
+  margin: 36px 0 0 61.41667%;
+}
+
+.link_left .about {
+  display: block;
+  float: left;
+  width: 31.0236669518%;
+  height: 59px;
+  margin-left: 0.7252999999%;
+  border-radius: 3px;
+  background-color: rgb(238, 237, 237);
+  font-size: 1em;
   line-height: 1.38;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -34,6 +58,7 @@ body {
   background: url('../images/logo_2.png') rgb(238, 237, 237);
   background-size: cover;
   background-position: center center;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
@@ -44,10 +69,12 @@ body {
 .team {
   display: block;
   float: left;
-  width: 53.7234042553%;
+  width: 36.863416025%;
   height: 59px;
+  margin-left: 0.21131%;
   border-radius: 3px;
   background-color: rgb(238, 237, 237);
+  font-size: 1em;
   line-height: 1.38;
   text-align: center;
   color: rgb(0, 0, 0);

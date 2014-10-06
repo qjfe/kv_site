@@ -59,12 +59,14 @@ audio:not([controls]) {
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
+ * 3. Ensure that the HTML is always 100% height. This fixed body height issues in Chrome for example.
  */
 
 html {
     font-family: sans-serif; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
+    min-height: 100%;
 }
 
 /**
@@ -249,9 +251,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-
 fieldset {
-    border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
@@ -469,7 +469,10 @@ a:visited {
   text-decoration: none;
 }
 button,
-input {
+input,
+fieldset,
+textarea,
+select {
   font-size: inherit;
   color: inherit;
   border: none;
