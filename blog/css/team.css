@@ -1,7 +1,13 @@
 body {
   background-color: rgb(255, 255, 255);
   font: 400 1em/1.38 Helvetica;
-  color: rgb(0, 0, 0);
+  color: rgb(0,0,0);
+}
+
+.body-1 p,
+.body-2 p,
+.body-3 p {
+  margin-bottom: 1em;
 }
 
 .about {
@@ -27,7 +33,6 @@ body {
 }
 
 .archak,
-.chriscole,
 .cigan,
 .filipp,
 .matvee,
@@ -35,14 +40,6 @@ body {
 .roman,
 .sadig {
   float: left;
-}
-
-.chriscole .link {
-  z-index: 64;
-}
-
-.chriscole .text {
-  z-index: 61;
 }
 
 .cigan .link {
@@ -93,7 +90,6 @@ body {
 }
 
 .image .archak,
-.image .chriscole,
 .image .cigan,
 .image .filipp,
 .image .matvee,
@@ -146,7 +142,7 @@ body {
   float: left;
   width: 22.7994791666%;
   height: 59px;
-  margin: 36px 0 0 61.41667%;
+  margin: 36px 0 0 64.58073%;
 }
 
 .link_left .team {
@@ -166,8 +162,9 @@ body {
 .logo {
   display: block;
   float: left;
-  width: 15.75%;
-  height: 95px;
+  width: 12.5833333333%;
+  height: 83px;
+  margin-top: 12px;
   border-radius: 3px;
   background: url('../images/logo_2.png') rgb(238, 237, 237);
   background-size: cover;
@@ -278,14 +275,6 @@ body {
   height: 350px;
 }
 
-.body-10 {
-  position: relative;
-  z-index: 65;
-  width: 71.1666666666%;
-  height: 326px;
-  margin: -326px 0 0 28.83073%;
-}
-
 .body-2 {
   position: relative;
   z-index: 25;
@@ -348,4 +337,16 @@ body {
   width: 71.1666666666%;
   height: 332px;
   margin: -658px 0 0 28.83073%;
+}
+
+.text a {
+  font-family: Arial;
+}
+
+.text-1 a {
+  font-weight: inherit;
+}
+
+.text-2 a {
+  font-style: normal;
 }

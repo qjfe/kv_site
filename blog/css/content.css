@@ -23,7 +23,7 @@ body {
   float: left;
   width: 22.7994791666%;
   height: 59px;
-  margin: 36px 0 0 61.41667%;
+  margin: 36px 0 0 64.58073%;
 }
 
 .link_left .content {
@@ -52,8 +52,9 @@ body {
 .logo {
   display: block;
   float: left;
-  width: 15.75%;
-  height: 95px;
+  width: 12.5833333333%;
+  height: 83px;
+  margin-top: 12px;
   border-radius: 3px;
   background: url('../images/logo_2.png') rgb(238, 237, 237);
   background-size: cover;
