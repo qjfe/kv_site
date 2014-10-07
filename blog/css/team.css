@@ -1,12 +1,10 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(246, 246, 246);
   font: 400 1em/1.38 Helvetica;
   color: rgb(0,0,0);
 }
 
-.body-1 p,
-.body-2 p,
-.body-3 p {
+p {
   margin-bottom: 1em;
 }
 
@@ -26,6 +24,7 @@ body {
 
 .archak .link {
   z-index: 29;
+  margin-top: -51px;
 }
 
 .archak .text {
@@ -44,6 +43,7 @@ body {
 
 .cigan .link {
   z-index: 59;
+  margin-top: -51px;
 }
 
 .cigan .text {
@@ -74,6 +74,7 @@ body {
 
 .filipp .link {
   z-index: 34;
+  margin-top: -51px;
 }
 
 .filipp .text {
@@ -135,7 +136,7 @@ body {
   clear: both;
   width: 11.475409836%;
   height: 51px;
-  margin: -51px 0 0 83.1326799999%;
+  margin-left: 83.1326799999%;
 }
 
 .link_left {
@@ -177,6 +178,7 @@ body {
 
 .matvee .link {
   z-index: 54;
+  margin-top: -60px;
 }
 
 .matvee .text {
@@ -185,6 +187,7 @@ body {
 
 .nataxa .link {
   z-index: 39;
+  margin-top: -51px;
 }
 
 .nataxa .text {
@@ -198,6 +201,7 @@ body {
 
 .ribak .link {
   z-index: 24;
+  margin-top: -51px;
 }
 
 .ribak .text {
@@ -206,6 +210,7 @@ body {
 
 .roman .link {
   z-index: 44;
+  margin-top: -51px;
 }
 
 .roman .text {
@@ -214,6 +219,7 @@ body {
 
 .sadig .link {
   z-index: 49;
+  margin-top: -51px;
 }
 
 .sadig .text {
@@ -226,6 +232,7 @@ body {
 
 .slava .link {
   z-index: 19;
+  margin-top: -51px;
 }
 
 .slava .text {
@@ -339,14 +346,23 @@ body {
   margin: -658px 0 0 28.83073%;
 }
 
-.text a {
-  font-family: Arial;
-}
-
 .text-1 a {
+  font-family: Arial;
   font-weight: inherit;
 }
 
 .text-2 a {
+  font-family: Arial;
   font-style: normal;
+}
+
+.text-5 a {
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: inherit;
+}
+
+.text-6 a {
+  font-family: Arimo;
+  font-weight: inherit;
 }
