@@ -4,12 +4,12 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.content {
+.about {
   display: block;
   float: left;
-  width: 31.0236669518%;
+  width: 7.05859375%;
   height: 59px;
-  margin-left: -0.21131%;
+  margin: 36px 0 0 0.00521%;
   border-radius: 3px;
   background-color: rgb(238, 237, 237);
   font-size: 1em;
@@ -19,27 +19,12 @@ body {
   resize: none;
 }
 
-.content:active,
-.content:focus,
-.content:hover {
-  bottom: auto;
-  right: auto;
-  margin-right: 0;
-}
-
-.link_left {
-  float: left;
-  width: 22.7994791666%;
-  height: 59px;
-  margin: 36px 0 0 64.58073%;
-}
-
-.link_left .about {
+.content {
   display: block;
   float: left;
-  width: 31.0236669518%;
+  width: 7.05859375%;
   height: 59px;
-  margin-left: 0.7252999999%;
+  margin: 36px 0 0 64.5%;
   border-radius: 3px;
   background-color: rgb(238, 237, 237);
   font-size: 1em;
@@ -70,9 +55,9 @@ body {
 .team {
   display: block;
   float: left;
-  width: 36.863416025%;
+  width: 8.38671875%;
   height: 59px;
-  margin-left: 0.21131%;
+  margin: 36px 0 0 0.00391%;
   border-radius: 3px;
   background-color: rgb(238, 237, 237);
   font-size: 1em;
