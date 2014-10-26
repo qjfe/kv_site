@@ -64,7 +64,7 @@ body {
   float: left;
   width: 3.1666666666%;
   height: 34px;
-  margin: -34px 0 0 96.83333%;
+  margin-top: -34px;
   border-radius: 3px;
   background: url('../images/instagram.jpg') rgba(222, 222, 222, 0);
   background-repeat: no-repeat;
@@ -120,7 +120,7 @@ body {
   float: left;
   width: 3.1666666666%;
   height: 34px;
-  margin: -34px 0 0 93.66667%;
+  margin-top: -34px;
   border-radius: 3px;
   background: url('../images/vkcom.jpg') rgba(222, 222, 222, 0);
   background-repeat: no-repeat;
@@ -346,88 +346,110 @@ body {
 
 .insta-1 {
   z-index: 8;
+  margin-left: 96.83203%;
 }
 
 .insta-10 {
   z-index: 62;
+  margin-left: 96.83203125%;
 }
 
 .insta-11 {
   z-index: 68;
+  margin-left: 96.83203125%;
 }
 
 .insta-2 {
   z-index: 14;
+  margin-left: 96.83203125%;
 }
 
 .insta-3 {
   z-index: 20;
+  margin-left: 96.83203125%;
 }
 
 .insta-4 {
   z-index: 26;
+  margin-left: 96.83203125%;
 }
 
 .insta-5 {
   z-index: 32;
+  margin-left: 96.83203125%;
 }
 
 .insta-6 {
   z-index: 38;
+  margin-left: 96.83203125%;
 }
 
 .insta-7 {
   z-index: 44;
+  margin-left: 96.83203125%;
 }
 
 .insta-8 {
   z-index: 50;
+  margin-left: 96.83203125%;
 }
 
 .insta-9 {
   z-index: 56;
+  margin-left: 96.83203125%;
 }
 
 .vk-1 {
   z-index: 9;
+  margin-left: 93.66667%;
 }
 
 .vk-10 {
   z-index: 63;
+  margin-left: 93.6666666666%;
 }
 
 .vk-11 {
   z-index: 69;
+  margin-left: 93.6666666666%;
 }
 
 .vk-2 {
   z-index: 15;
+  margin-left: 93.6666666666%;
 }
 
 .vk-3 {
   z-index: 21;
+  margin-left: 93.6666666666%;
 }
 
 .vk-4 {
   z-index: 27;
+  margin-left: 93.6666666666%;
 }
 
 .vk-5 {
   z-index: 33;
+  margin-left: 93.6666666666%;
 }
 
 .vk-6 {
   z-index: 39;
+  margin-left: 93.6666666666%;
 }
 
 .vk-7 {
   z-index: 45;
+  margin-left: 93.6666666666%;
 }
 
 .vk-8 {
   z-index: 51;
+  margin-left: 93.6666666666%;
 }
 
 .vk-9 {
   z-index: 57;
+  margin-left: 93.6666666666%;
 }
